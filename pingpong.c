@@ -54,7 +54,7 @@ typedef struct {
 
 #define STEP 4
 #define PADDLE_H 16		//paddle height
-#define PADDLE_W 128  //paddle width
+#define PADDLE_W 128 		 //paddle width
 #define OBSTACLE_H 16
 #define OBSTACLE_W 128
 #define GAME_BALL 16 
@@ -185,7 +185,7 @@ int main(void) {
 		
 		
 		
-		if((bs.gameball.x >= gs.paddle.x && bs.gameball.x <= gs.paddle.x + 128))
+		if((bs.gameball.x >= gs.paddle.x && bs.gameball.x <= gs.paddle.x + PADDLE_W))
 	
 		{
 		
