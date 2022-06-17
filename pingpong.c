@@ -190,13 +190,13 @@ int main(void) {
 		{
 		
 		if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x < SCREEN_W-GAME_BALL && x == 2 && y == 2 && dir == 0) {
-			//touching paddle from 
+			//touching paddle from left side 
 			x = 2;
 			y = -2;
 		}
 		else if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x < SCREEN_W-GAME_BALL && x == 2 && y == 2 && dir == LEFT) {
 			if(bs.gameball.x == gs.paddle.x){
-			//dira donju ivicu sa leve strane paddle ide levo dobro
+			//touching paddle from left side, paddle going left
 			x = 2;
 			y = -2;
 		}
@@ -204,22 +204,22 @@ int main(void) {
 			bs.gameball.y = 0;}
 		}
 		else if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x == bs.gameball.x && x == 2 && y == 2 && dir == RIGHT) {
-			//dira paddle sa leve strane a paddle ide nadesno dobro
+			//touching paddle from left side, paddle going right
 			x = -2;
 			y = -2;
 		}
 		else if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x < SCREEN_W-GAME_BALL && x == -2 && y == 2 && dir == LEFT) {		
-			//dira donju ivicu sa desne strane paddle ide nalevo dobro
+			//touching paddle from right, paddle going left
 			x = 2;
 			y = -2;
 		}
 		else if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x < SCREEN_W-GAME_BALL && x == -2 && y == 2 && dir == RIGHT) {		
-			//dira donju ivicu sa desne strane paddle ide nadesno dobro
+			//touching paddle from right, paddle going right
 			x = -2;
 			y = -2;
 		}
 		else if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x < SCREEN_W-GAME_BALL && x == -2 && y == 2) {		
-			//dira donju ivicu sa desne strane paddle se ne pomera
+			//touching paddle from right
 			x = -2;
 			y = -2;
 		}
