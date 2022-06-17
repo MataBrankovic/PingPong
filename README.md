@@ -23,3 +23,20 @@ Game is based on one player and one ball. Goal is that paddle keeps ball bouncin
 
 Plot twist is in the next segment
 3. If board moves in the same direction as ball (left or right) ball will bounce in the way it came from.
+
+###### Bounus. Main logic explained
+First there must me if loop to encompass whole paddle width
+
+if((bs.gameball.x >= gs.paddle.x && bs.gameball.x <= gs.paddle.x + PADDLE_W)){
+	
+in that loop must be six other loops for every possible outcome. There is example of one of them in witch ball is hitting paddle from the left while paddle is standing still		
+		if(bs.gameball.y == SCREEN_H-GAME_BALL-PADDLE_H && bs.gameball.x < SCREEN_W-GAME_BALL && x == 2 && y == 2 && dir == 0) {
+    	x = 2;
+			y = -2;
+      }
+      }
+1. first we check y (height) coordinates
+2. then x (width) 
+3. then trajetrory of the ball
+4. and finnaly dirrection in withc paddle is moving
+		
