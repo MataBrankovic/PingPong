@@ -25,6 +25,7 @@ Plot twist is in the next segment
 3. If board moves in the same direction as ball (left or right) ball will bounce in the way it came from.
 
 ###### Bounus. Main logic explained
+Complex physics such as bouncing in diferent angles depending of paddle speed and adding blocks would requier more time
 First there must me if loop to encompass whole paddle width
 
 if((bs.gameball.x >= gs.paddle.x && bs.gameball.x <= gs.paddle.x + PADDLE_W)){
