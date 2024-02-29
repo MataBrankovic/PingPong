@@ -39,5 +39,5 @@ in that loop must be six other loops for every possible outcome. There is exampl
 1. first we check y (height) coordinates
 2. then x (width) 
 3. then trajetrory of the ball
-4. and finnaly dirrection in withc paddle is moving
+4. and finnaly direction in which paddle is moving
 		
