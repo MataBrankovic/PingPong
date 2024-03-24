@@ -18,7 +18,7 @@ Game is based on one player and one ball. Goal is that paddle keeps ball bouncin
 
 ###### Function of moving ball
 
-1. If board donesn't move, ball will continue to move in normal trajectrory.
+1. If board doesn't move, ball will continue to move in normal trajectrory.
 2. if board moves in opposite direction compared to ball nothing really changes here.
 
 Plot twist is in the next segment
