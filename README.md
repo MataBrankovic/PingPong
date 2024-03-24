@@ -19,13 +19,13 @@ Game is based on one player and one ball. Goal is that paddle keeps ball bouncin
 ###### Function of moving ball
 
 1. If board donesn't move, ball will continue to move in normal trajectrory.
-2. if board moves in opposite direction compared to ball nothing really changes here
+2. if board moves in opposite direction compared to ball nothing really changes here.
 
 Plot twist is in the next segment
 3. If board moves in the same direction as ball (left or right) ball will bounce in the way it came from.
 
-###### Bounus. Main logic explained
-Complex physics such as bouncing in diferent angles depending of paddle speed and adding blocks would requier more time
+###### Bonus. Main logic explained
+Complex physics such as bouncing in diferent angles depending of paddle speed and adding blocks would requier more time.
 First there must me if loop to encompass whole paddle width
 
 if((bs.gameball.x >= gs.paddle.x && bs.gameball.x <= gs.paddle.x + PADDLE_W)){
